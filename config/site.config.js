@@ -17,7 +17,6 @@ module.exports = {
   title: "Jason的网盘",
 
   // The folder that you are to share publicly with onedrive-cf-index-ng. Use '/' if you want to share your root folder.
-  baseDirectory: process.env.BASE_DIRECTORY || '/🚀 请遵纪守法合理使用',
   baseDirectory: process.env.BASE_DIRECTORY || '/🌞 公共',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
@@ -40,7 +39,7 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/'],
+  protectedRoutes: ['/遵纪守法小组'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: '',
